@@ -14,7 +14,7 @@
 def income_tax?(state)
 
     new_state = state.to_s
-    income_tax = ["IL", "IN", "MA", "MI", "NC", "PA", "UT", "CO","CA", "HI", "OR", "MN", "IA", "NJ", "VT", "DC", "NY", "WI"]
+    income_tax = ["ND","AZ","NM","MS","MO","GA","KS","VA","LA","RI","MD","WV","DE","NE","AR","MT","ID","CT","SC","ME","OR","IL","AL","IN", "MA", "MI", "NC", "PA", "UT", "CO","CA", "HI", "OR", "MN", "IA", "NJ", "VT", "DC", "NY", "WI", "OH", "OK", "KY"]
     if (income_tax.find {|i| i == new_state})
         return new_state
     end

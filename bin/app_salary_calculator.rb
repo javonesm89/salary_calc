@@ -26,7 +26,7 @@ end
 sleep(0.5)
 
 
-state = prompt.ask("What state do live in or intend to live in? (Ex. NY, TX)", required: true) do |q|
+state = prompt.ask("What state do live in or intend to live in? (Ex. NY, tx)", required: true) do |q|
     q.modify :up
 end
 
